@@ -13,8 +13,6 @@ public abstract class Person : MonoBehaviour
     [SerializeField] private TMP_Text _healthText, _nameText, _looserText;
     [SerializeField] private GameObject _gameOverPanel; 
     public string Name => _name;
-    public GameObject Ammo => _ammo;
-    public Transform ShootDir => _shootDir;
     
     
     private void Awake()
